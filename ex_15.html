@@ -6,20 +6,27 @@
         <title>스타일시트</title>
         <!-- 스타일시트자리 -->
         <style>
-        	div {
-        		background-color: #ffffff;
-        		width: 500px;
-        		height: 450px;
-        	}
-        
+        	* {margin:0; padding:0;}
+        	
+        	li {
+        		float: left;
+        		list-style-type: none;
+        		font-size: 20px;
+        		padding: 0px 0px 0px 7.03px;
+          	}
+        	
+        	li:after {content: " >";}
         </style>
-        
     </head>
 
     <body>
-		<div>
-			테스트
-		</div>
+		<ol>
+			<li>홈</li>
+			<li>게시판</li>
+			<li>일반게시판</li>
+			<li>리스트</li>
+		</ol>
+        
 
     </body>
 
